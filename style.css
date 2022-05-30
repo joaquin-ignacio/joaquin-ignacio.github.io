@@ -1,0 +1,94 @@
+.navbar-background {
+    background-color: #F8F2FE;
+}
+
+.banner {
+    width: 100%;
+    height: 560px;
+    background-image: url(https://jorgekawamuras.github.io/LandingPage_Roomies/img/Fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-roomie {
+    width: 100%;
+    height: 560px;
+    background-image: url(https://jorgekawamuras.github.io/LandingPage_Roomies/img/Roommates/Fondo.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.padding-banner-title {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.banner-title-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+@media (min-width: 576px) {
+    .banner-title-font {
+        font-size: 60px;
+    }
+}
+
+.margin-login-btn {
+    margin-right: 50px;
+}
+
+.search-background {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 75%;
+}
+
+.business-info-background {
+    background-color: #F8F2FE;
+}
+
+.business-info-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    padding-top:105px;
+    padding-bottom: 55px;
+}
+
+.roomie-info {
+    background-color: #AC8AA8;
+    border-radius: 10px;
+}
+
+.landlord-info {
+    background-color: #FDC84C;
+    border-radius: 10px;
+}
+
+.user-type-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.plan-box {
+    height: 340px;
+    transition: 0.2s;
+}
+
+.plan-box:hover {
+    transform: scale(1.05, 1.05);
+    background-color: rgba(0, 0, 0, 0.025);
+    cursor: pointer;
+}
+
+.roomie-banner-text {
+    font-size: 20px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 576px) {
+    .roomie-banner-text {
+        font-size: 35px;
+    }
+}
